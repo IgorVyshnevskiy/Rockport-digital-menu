@@ -1,0 +1,1 @@
+ul.list>li*4.list-item>h3.list-title+div.list-blick>p.list-discr+span.list-price
