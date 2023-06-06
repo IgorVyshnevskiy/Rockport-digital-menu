@@ -4,674 +4,739 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles/null-styles.css" />
+    <link rel="stylesheet" href="./styles/index.css">
     <title>Food menu</title>
   </head>
   <body>
-    <header>
-      <a class="logo" href="./index.html">Rock<span>port</span> </a>
-      <a href="./drinks.html">Напої</a>
+    <header class="header-buttons">
+      <div class="header-container">
+        <a class="logo" href="./index.html">Rockport <span class="logo-text">PUB</span> </a>
+        <div class="header-nav">
+          <a class="nav-btn active" href="./food.html">Страви</a>
+          <a class="nav-btn" href="./drinks.html">Напої</a>
+        </div>
+      </div>
     </header>
-    <main>
-      <h1 class="main-title">Наші страви</h1>
-      <section class="section">
-        <h2 class="title">Салати</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Салат TUNA</h3>
-            <div class="list-block">
-              <p class="food-disc">
-                (тунець, рукола, помідори, мигдальні горішки, спеції,
-                заправлений оливковою олією)
-              </p>
-              <span class="list-price">179 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Теплий салат "Рокпорт" з Песто</h3>
-            <div class="list-block">
-              <p class="food-disc">
-                (Телятина, баклажани, шалата, перець, шампіньйони, помідори
-                чері, песто, соус та спеції)
-              </p>
-              <span class="list-price">165 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Цезар</h3>
-            <div class="list-block">
-              <p class="food-disc">
-                (шалата, помідори чері, філе куряче, перепелині яйця, пармезан
-                та соус у місцевих традиціях)
-              </p>
-              <span class="list-price">144 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Салат Грецький</h3>
-            <div class="list-block">
-              <p class="food-disc">(фета, перець, помідори, огірки, оливки)</p>
-              <span class="list-price">119 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Салат "Будапешт"</h3>
-            <div class="list-block">
-              <p class="food-disc">
-                (качина грудка, рукола, апельсин, помідори чері, олія, спеції)
-              </p>
-              <span class="list-price">209 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Квашена капуста</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">69 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Малосольні огірки</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">49 грн</span>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section class="section">
-        <h2 class="title">Перші страви</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Грибний крем-суп</h3>
-            <div class="list-block">
-              <p class="list-discr">(із шампіньйонами)</p>
-              <span class="list-price">99 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Сирний крем-суп</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">109 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Бограч Гуляш</h3>
-            <div class="list-block">
-              <p class="list-discr">
-                (традиційний угорський м'ясний суп з телятини та свинини на
-                закарпатський манер)
-              </p>
-              <span class="list-price">89 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Качиний бульйон</h3>
-            <div class="list-block">
-              <p class="list-discr">
-                (на Закарпатті рахується шляхетним святковим супом)
-              </p>
-              <span class="list-price">85 грн</span>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section class="section">
-        <h2 class="title">Холодні закуски</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Татарський біфштекс</h3>
-            <div class="list-block">
-              <p class="list-discr">
-                (теляче м'ясо з спеціями, подається з грінками та маслом)
-              </p>
-              <span class="list-price">189 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Прошуто з твердим сиром</h3>
-            <div class="list-block">
-              <p class="list-discr">99 грн</p>
-              <span class="list-price"></span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Прошуто</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">89 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Чорізо з руколою</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">89 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title"></h3>
-            <div class="list-block">
-              <p class="list-discr">Вуха свинні сирокопчені</p>
-              <span class="list-price">89 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Бастурма</h3>
-            <div class="list-block">
-              <p class="list-discr">
-                В'ялене м'ясо приготовлене за старими монгольськими традиціями
-              </p>
-              <span class="list-price">89 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Махан</h3>
-            <div class="list-block">
-              <p class="list-discr">
-                традиційна татарськасиров'ялена ковбаса з конини
-              </p>
-              <span class="list-price">79 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Сир "косичка"</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">69 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Сирна тарілка</h3>
-            <div class="list-block">
-              <p class="list-discr">(емменталь, горгонзола, пармезан)</p>
-              <span class="list-price">209 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Сало</h3>
-            <div class="list-block">
-              <p class="list-discr">(сало копчене, сало жарене, цибулька)</p>
-              <span class="list-price">129 грн</span>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section class="section">
-        <h2 class="title">Рекомендація від закладу</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Банош</h3>
-            <div class="list-block">
-              <p class="list-discr">
-                (кукурудзяна крупа, вершки, шкварки, бринза)
-              </p>
-              <span class="list-price">139 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Сир фрі + картопля фрі</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">149 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Цігань-печенє з картоплею по-селянськи</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">159 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Корейка в сухарях з картоплею фрі</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">159 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">
-              Качина ніжка з карамелізованими яблуками та рисом
-            </h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">219 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Качина ніжка з овочами гриль</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">219 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">
-              Кроляча ніжка під вершково-сирним соусом з кус-кусом
-            </h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">329 грн</span>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section class="section">
-        <h2 class="title">Паштети</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Рибний паштет</h3>
-            <div class="list-block">
-              <p class="list-discr">
-                (рибний паштет за старо-єврейським рецептом. Подається з
-                грінками)
-              </p>
-              <span class="list-price">89 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Качиний паштет</h3>
-            <div class="list-block">
-              <p class="list-discr">
-                (один з найулюбленіших делікатесів угорської кухні, на основі
-                качиних шкварок та печінки. Подається з грінками)
-              </p>
-              <span class="list-price">109 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Паштет шкварковий</h3>
-            <div class="list-block">
-              <p class="list-discr">
-                (готується з підреберної частини свинини. Подається з грінками)
-              </p>
-              <span class="list-price">69 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Паштетна тарілка</h3>
-            <div class="list-block">
-              <p class="list-discr">
-                (рибдний паштет, качиний паштет, та шкварковий паштет. Подається
-                з грінками)
-              </p>
-              <span class="list-price">259 грн</span>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section class="section">
-        <h2 class="title">Гарячі закуски</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Вареники фрі</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">99 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Пельмені фрі</h3>
-            <div class="list-block">
-              <p class="list-discr">
-                (пельмені власного виробництва із свинно-яловичного фаршу,
-                подаються з соусом)
-              </p>
-              <span class="list-price">99 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Курині нагетси</h3>
-            <div class="list-block">
-              <p class="list-discr">(курине філе у кукурудзяній паніровці)</p>
-              <span class="list-price">79 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Купати</h3>
-            <div class="list-block">
-              <p class="list-discr">
-                (тоненькі ковбаски домашнього виробництва)
-              </p>
-              <span class="list-price">89 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Пікниця</h3>
-            <div class="list-block">
-              <p class="list-discr">
-                (копчена ковбаса, лакомство закарпатських гурманів)
-              </p>
-              <span class="list-price">89 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Крильця у медово-гірчичному соусі</h3>
-            <div class="list-block">
-              <p class="list-discr">(подаються на вагу)</p>
-              <span class="list-price">45 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Крильця BBQ</h3>
-            <div class="list-block">
-              <p class="list-discr">(подаються на вагу)</p>
-              <span class="list-price">45 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Цибуля фрі</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">75 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Камамбер під журавлиним соусом</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">139 грн</span>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section class="section">
-        <h2 class="title">Тарілки на компанію</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">"Царська"</h3>
-            <div class="list-block">
-              <p class="list-discr">
-                (ребра, антрекот зі свинної шиї, стейк телячий, картопля
-                по-селянськи, соус)
-              </p>
-              <span class="list-price">1099 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">"Рокпорт"</h3>
-            <div class="list-block">
-              <p class="list-discr">
-                (крила BBQ, крила медово-гірчичні, пікниця, купати, соус)
-              </p>
-              <span class="list-price">699 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">"Пивна"</h3>
-            <div class="list-block">
-              <p class="list-discr">
-                (цибуля фрі, вуха сирокопчені, пельмені фрі, картопля
-                фрі,вареники фрі, соус)
-              </p>
-              <span class="list-price">549 грн</span>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section class="section">
-        <h2 class="title">Страви з курки</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Стейк курячий</h3>
-            <div class="list-block">
-              <p class="list-discr">(на вагу)</p>
-              <span class="list-price">69 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Куряча табака (тапака)</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">209 грн</span>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section class="section">
-        <h2 class="title">Страви з качки</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Стейк з качиної грудки під апельсиновим соусом</h3>
-            <div class="list-block">
-              <p class="list-discr">(рекомендована прожарка rose, medium)</p>
-              <span class="list-price">149 грн</span>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section class="section">
-        <h2 class="title">Страви з свинини</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Голяшка</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">449 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Ребра печені</h3>
-            <div class="list-block">
-              <p class="list-discr">(свинячі, продаються на вагу від 400г і вище )</p>
-              <span class="list-price">69 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Антрекот зі свинної шиї</h3>
-            <div class="list-block">
-              <p class="list-discr">(на вагу)</p>
-              <span class="list-price">89 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Голяшка KingKong</h3>
-            <div class="list-block">
-              <p class="list-discr">(за попереднім замовленням, вага від 2кг)</p>
-              <span class="list-price">59 грн</span>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section class="section">
-        <h2 class="title">Страви з телятини</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Стейк телячий</h3>
-            <div class="list-block">
-              <p class="list-discr">(на вагу)</p>
-              <span class="list-price">95 грн</span>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section class="section">
-        <h2 class="title">Страви з риби</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Форель з "Шипота"</h3>
-            <div class="list-block">
-              <p class="list-discr">(на вагу)</p>
-              <span class="list-price">99 грн</span>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section class="section">
-        <h2 class="title">Паста</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Карбонара</h3>
-            <div class="list-block">
-              <p class="list-discr">(паста, бекон, яйце варшки, пармезан, спеції)</p>
-              <span class="list-price">139 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Болоньєзе</h3>
-            <div class="list-block">
-              <p class="list-discr">(паста, свинно-гов'яжний фарш, соус болоньєзе, пармезан, спеції) </p>
-              <span class="list-price">139 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Паста з морепродуктами</h3>
-            <div class="list-block">
-              <p class="list-discr">(чорна паста, морепродукти, вершки, пармезан, вино, лимон, спеції)</p>
-              <span class="list-price">219 грн</span>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section class="section">
-        <h2 class="title">Гамбургери / лаваши</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Burger Рокпорт</h3>
-            <div class="list-block">
-              <p class="list-discr">(булочка, свинно-гов'яжа котлета, бекон, сир, мариновані огірки,цибуля, шалата, помідори) + картопля фрі та соус</p>
-              <span class="list-price">175 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Burger Варош</h3>
-            <div class="list-block">
-              <p class="list-discr">(булочка, свинно-гов'яжа котлета, помідори, цибуля, шалата, плавлений сирок) + картопля фрі та соус</p>
-              <span class="list-price">169 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Burger HOT</h3>
-            <div class="list-block">
-              <p class="list-discr">(булочка, свинно-гов'яжа котлета, чорізо, помідори, цибуля, шалата) + картопля фрі та соус</p>
-              <span class="list-price">175 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Лаваш з сиром</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">99 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Лаваш з сиром та куркою</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">109 грн</span>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section class="section">
-        <h2 class="title">Гарніри</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Картопля фрі</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">62 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Картопля по-селянськи</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">54 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Овочі гриль (сезонні)</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">79 грн</span>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section class="section">
-        <h2 class="title">Десерти</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Сирники зі сметаною та повидлом</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">149 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Шоколадний фондан з морозивом</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">99 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Чізкейк</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">59 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Морозиво</h3>
-            <div class="list-block">
-              <p class="list-discr">(пломбір, шоколадне, фруктове)</p>
-              <span class="list-price">69 грн</span>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section class="section">
-        <h2 class="title">Соуси</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Соус з журавлиною</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">35 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Соус BBQ</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">30 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Білий часниковий</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">30 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Червоний гострий</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">30 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Ерош Пішта</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">30 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Кетчуп</h3>
-            <div class="list-block">
-              <p class="list-discr"></p>
-              <span class="list-price">25 грн</span>
-            </div>
-          </li>
-        </ul>
-      </section>
+    <main class="bg-theme">
+      <div class="main">
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <h1 class="main-title">Наші страви</h1>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 class="title">Салати</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">Салат TUNA</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (тунець, рукола, помідори, мигдальні горішки, спеції,
+                  заправлений оливковою олією)
+                </p>
+                <span class="list-price">179 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Теплий салат "Рокпорт" з Песто</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (Телятина, баклажани, шалата, перець, шампіньйони, помідори
+                  чері, песто, соус та спеції)
+                </p>
+                <span class="list-price">165 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Цезар</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (шалата, помідори чері, філе куряче, перепелині яйця, пармезан
+                  та соус у місцевих традиціях)
+                </p>
+                <span class="list-price">144 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Салат Грецький</h3>
+              <div class="list-block">
+                <p class="food-disc">(фета, перець, помідори, огірки, оливки)</p>
+                <span class="list-price">119 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Салат "Будапешт"</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (качина грудка, рукола, апельсин, помідори чері, олія, спеції)
+                </p>
+                <span class="list-price">209 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Квашена капуста</h3>
+              <div class="list-block">
+                <span class="list-price">69 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Малосольні огірки</h3>
+              <div class="list-block">
+                <span class="list-price">49 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 class="title">Перші страви</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">Грибний крем-суп</h3>
+              <div class="list-block">
+                <p class="food-disc">(із шампіньйонами)</p>
+                <span class="list-price">99 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Сирний крем-суп</h3>
+              <div class="list-block">
+                <span class="list-price">109 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Бограч Гуляш</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (традиційний угорський м'ясний суп з телятини та свинини на
+                  закарпатський манер)
+                </p>
+                <span class="list-price">89 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Качиний бульйон</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (на Закарпатті рахується шляхетним святковим супом)
+                </p>
+                <span class="list-price">85 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 class="title">Холодні закуски</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">Татарський біфштекс</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (теляче м'ясо з спеціями, подається з грінками та маслом)
+                </p>
+                <span class="list-price">189 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Прошуто з твердим сиром</h3>
+              <div class="list-block">
+                <span class="list-price">99 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Прошуто</h3>
+              <div class="list-block">
+                <span class="list-price">89 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Чорізо з руколою</h3>
+              <div class="list-block">
+                <span class="list-price">89 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Вуха свинні сирокопчені</h3>
+              <div class="list-block">
+                <span class="list-price">89 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Бастурма</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (в'ялене м'ясо приготовлене за старими монгольськими традиціями)
+                </p>
+                <span class="list-price">89 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Махан</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (традиційна татарськасиров'ялена ковбаса з конини)
+                </p>
+                <span class="list-price">79 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Сир "косичка"</h3>
+              <div class="list-block">
+                <span class="list-price">69 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Сирна тарілка</h3>
+              <div class="list-block">
+                <p class="food-disc">(емменталь, горгонзола, пармезан)</p>
+                <span class="list-price">209 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Сало</h3>
+              <div class="list-block">
+                <p class="food-disc">(сало копчене, сало жарене, цибулька)</p>
+                <span class="list-price">129 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 class="title">Рекомендація від закладу</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">Банош</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (кукурудзяна крупа, вершки, шкварки, бринза)
+                </p>
+                <span class="list-price">139 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Сир фрі + картопля фрі</h3>
+              <div class="list-block">
+                <span class="list-price">149 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Цігань-печенє з картоплею по-селянськи</h3>
+              <div class="list-block">
+                <span class="list-price">159 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Корейка в сухарях з картоплею фрі</h3>
+              <div class="list-block">
+                <span class="list-price">159 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Качина ніжка з карамелізованими яблуками та рисом
+              </h3>
+              <div class="list-block">
+                <span class="list-price">219 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Качина ніжка з овочами гриль</h3>
+              <div class="list-block">
+                <span class="list-price">219 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Кроляча ніжка під вершково-сирним соусом з кус-кусом
+              </h3>
+              <div class="list-block">
+                <span class="list-price">329 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 class="title">Паштети</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">Рибний паштет</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (рибний паштет за старо-єврейським рецептом. Подається з
+                  грінками)
+                </p>
+                <span class="list-price">89 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Качиний паштет</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (один з найулюбленіших делікатесів угорської кухні, на основі
+                  качиних шкварок та печінки. Подається з грінками)
+                </p>
+                <span class="list-price">109 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Паштет шкварковий</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (готується з підреберної частини свинини. Подається з грінками)
+                </p>
+                <span class="list-price">69 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Паштетна тарілка</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (рибдний паштет, качиний паштет, та шкварковий паштет. Подається
+                  з грінками)
+                </p>
+                <span class="list-price">259 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 class="title">Гарячі закуски</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">Вареники фрі</h3>
+              <div class="list-block">
+                <span class="list-price">99 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Пельмені фрі</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (пельмені власного виробництва із свинно-яловичного фаршу,
+                  подаються з соусом)
+                </p>
+                <span class="list-price">99 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Курині нагетси</h3>
+              <div class="list-block">
+                <p class="food-disc">(курине філе у кукурудзяній паніровці)</p>
+                <span class="list-price">79 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Купати</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (тоненькі ковбаски домашнього виробництва)
+                </p>
+                <span class="list-price">89 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Пікниця</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (копчена ковбаса, лакомство закарпатських гурманів)
+                </p>
+                <span class="list-price">89 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Крильця у медово-гірчичному соусі</h3>
+              <div class="list-block">
+                <p class="food-disc">(подаються на вагу)</p>
+                <span class="list-price">45 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Крильця BBQ</h3>
+              <div class="list-block">
+                <p class="food-disc">(подаються на вагу)</p>
+                <span class="list-price">45 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Цибуля фрі</h3>
+              <div class="list-block">
+                <span class="list-price">75 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Камамбер під журавлиним соусом</h3>
+              <div class="list-block">
+                <span class="list-price">139 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 class="title">Тарілки на компанію</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">"Царська"</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (ребра, антрекот зі свинної шиї, стейк телячий, картопля
+                  по-селянськи, соус)
+                </p>
+                <span class="list-price">1099 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">"Рокпорт"</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (крила BBQ, крила медово-гірчичні, пікниця, купати, соус)
+                </p>
+                <span class="list-price">699 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">"Пивна"</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (цибуля фрі, вуха сирокопчені, пельмені фрі, картопля
+                  фрі,вареники фрі, соус)
+                </p>
+                <span class="list-price">549 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 class="title">Страви з курки</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">Стейк курячий</h3>
+              <div class="list-block">
+                <p class="food-disc">(на вагу)</p>
+                <span class="list-price">69 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Куряча табака (тапака)</h3>
+              <div class="list-block">
+                <span class="list-price">209 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 class="title">Страви з качки</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">
+                Стейк з качиної грудки під апельсиновим соусом
+              </h3>
+              <div class="list-block">
+                <p class="food-disc">(рекомендована прожарка rose, medium)</p>
+                <span class="list-price">149 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 class="title">Страви з свинини</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">Голяшка</h3>
+              <div class="list-block">
+                <span class="list-price">449 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Ребра печені</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (свинячі, продаються на вагу від 400г і вище )
+                </p>
+                <span class="list-price">69 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Антрекот зі свинної шиї</h3>
+              <div class="list-block">
+                <p class="food-disc">(на вагу)</p>
+                <span class="list-price">89 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Голяшка KingKong</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (за попереднім замовленням, вага від 2кг)
+                </p>
+                <span class="list-price">59 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 class="title">Страви з телятини</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">Стейк телячий</h3>
+              <div class="list-block">
+                <p class="food-disc">(на вагу)</p>
+                <span class="list-price">95 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 class="title">Страви з риби</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">Форель з "Шипота"</h3>
+              <div class="list-block">
+                <p class="food-disc">(на вагу)</p>
+                <span class="list-price">99 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 class="title">Паста</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">Карбонара</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (паста, бекон, яйце варшки, пармезан, спеції)
+                </p>
+                <span class="list-price">139 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Болоньєзе</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (паста, свинно-гов'яжний фарш, соус болоньєзе, пармезан, спеції)
+                </p>
+                <span class="list-price">139 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Паста з морепродуктами</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (чорна паста, морепродукти, вершки, пармезан, вино, лимон,
+                  спеції)
+                </p>
+                <span class="list-price">219 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 class="title">Гамбургери / лаваши</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">Burger Рокпорт</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (булочка, свинно-гов'яжа котлета, бекон, сир, мариновані
+                  огірки,цибуля, шалата, помідори) + картопля фрі та соус
+                </p>
+                <span class="list-price">175 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Burger Варош</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (булочка, свинно-гов'яжа котлета, помідори, цибуля, шалата,
+                  плавлений сирок) + картопля фрі та соус
+                </p>
+                <span class="list-price">169 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Burger HOT</h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (булочка, свинно-гов'яжа котлета, чорізо, помідори, цибуля,
+                  шалата) + картопля фрі та соус
+                </p>
+                <span class="list-price">175 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Лаваш з сиром</h3>
+              <div class="list-block">
+                <span class="list-price">99 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Лаваш з сиром та куркою</h3>
+              <div class="list-block">
+                <span class="list-price">109 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 class="title">Гарніри</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">Картопля фрі</h3>
+              <div class="list-block">
+                <span class="list-price">62 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Картопля по-селянськи</h3>
+              <div class="list-block">
+                <span class="list-price">54 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Овочі гриль (сезонні)</h3>
+              <div class="list-block">
+                <span class="list-price">79 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 class="title">Десерти</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">Сирники зі сметаною та повидлом</h3>
+              <div class="list-block">
+                <span class="list-price">149 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Шоколадний фондан з морозивом</h3>
+              <div class="list-block">
+                <span class="list-price">99 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Чізкейк</h3>
+              <div class="list-block">
+                <span class="list-price">59 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Морозиво</h3>
+              <div class="list-block">
+                <p class="food-disc">(пломбір, шоколадне, фруктове)</p>
+                <span class="list-price">69 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 class="title">Соуси</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">Соус з журавлиною</h3>
+              <div class="list-block">
+                <span class="list-price">35 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Соус BBQ</h3>
+              <div class="list-block">
+                <span class="list-price">30 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Білий часниковий</h3>
+              <div class="list-block">
+                <span class="list-price">30 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Червоний гострий</h3>
+              <div class="list-block">
+                <span class="list-price">30 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Ерош Пішта</h3>
+              <div class="list-block">
+                <span class="list-price">30 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Кетчуп</h3>
+              <div class="list-block">
+                <span class="list-price">25 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
     </main>
-    <footer></footer>
+    <footer class="footer-bg">
+      <div class="footer-content">
+        <p class="foot-text pulse">Щоб отримати картку на знижку потрібно пред'явити чек на суму більше 2500 грн. Знижка діє на кухню.</p>
+        <div class="foot-links">
+          <a class="foot-link" href="tel:+380504324120">+38 (050) 432 41 20</a>
+          <a class="foot-link" href="https://www.facebook.com/RockportPub/">facebook</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
