@@ -14,7 +14,7 @@ body {
   font-size: 16px;
   text-align: center;
   letter-spacing: 0.02em;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 .bg-theme {
@@ -24,7 +24,7 @@ body {
       rgb(26 26 29 / 50%)
     ),
     url(../images/background.jpeg);
-  padding-top: 52px;
+  padding-top: 22%;
   padding-bottom: 15px;
 }
 
@@ -78,13 +78,13 @@ body {
 
 .active {
   color: var(--accent-color);
-  padding-bottom: 23px;
-  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 22px;
+  border-bottom: 3px solid var(--accent-color);
 }
 
 .main {
   background-color: var(--secondary-color);
-  width: 90%;
+  width: 80%;
   max-width: 450px;
   padding-top: 20px;
   padding-bottom: 12px;
@@ -98,6 +98,8 @@ body {
   border: 2px dashed var(--dark-color);
   border-radius: 10px;
   margin: 6px 10px 10px;
+  background-color: rgba(194, 178, 128, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .main-title {
@@ -139,6 +141,8 @@ body {
 .title {
   font-weight: 700;
   padding-top: 12px;
+  padding-right: 10px;
+  padding-left: 10px;
   margin-bottom: 20px;
   color: var(--dark-color);
 }
@@ -151,9 +155,17 @@ body {
 
 .list-title {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   color: var(--dark-color);
   margin-bottom: 4px;
+}
+
+.weight {
+  font-size: 10px;
+  color: var(--text-color);
+  font-weight: 500;
+  display: inline-block;
+  margin-left: 5px;
 }
 
 .list-block {
@@ -164,7 +176,12 @@ body {
 .food-disc {
   font-size: 10px;
   color: var(--text-color);
+}
+
+.alco-disc {
   margin-bottom: 10px;
+  font-size: 14px;
+  text-align: center;
 }
 
 .list-price {
@@ -175,6 +192,7 @@ body {
   background-color: var(--primary-color);
   padding: 5px 10px;
   margin-bottom: 12px;
+  margin-top: 10px;
   border-radius: 6px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
