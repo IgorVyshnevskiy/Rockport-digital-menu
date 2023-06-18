@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="./styles/null-styles.css" />
     <link rel="stylesheet" href="./styles/index.css" />
+    <script src="./script.js" defer></script>
     <title>Food menu</title>
   </head>
   <body>
@@ -21,22 +22,45 @@
           >Rockport <span class="logo-text">PUB</span>
         </a>
         <div class="header-nav">
-          <a class="nav-btn active" href="./food.html">Кухня</a>
+          <a class="nav-btn active" href="#" data-modal-open>Кухня</a>
           <a class="nav-btn" href="./drinks.html">Напої</a>
         </div>
       </div>
     </header>
-    <main class="bg-theme">
+    <main class="bg-theme" data-modal-close>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="sidebar-menu">
+          <ul class="sidebar-list">
+            <li><a class="sidebar-link" href="#salats">Салати</a></li>
+            <li><a class="sidebar-link"  href="#first-dishes">Перші страви</a></li>
+            <li><a class="sidebar-link" href="#cold-dishes">Холодні закуски</a></li>
+            <li><a class="sidebar-link" href="#recomendations">Рекомендація від закладу</a></li>
+            <li><a class="sidebar-link" href="#pastets">Паштети</a></li>
+            <li><a class="sidebar-link" href="#hot-food">Гарячі закуски</a></li>
+            <li><a class="sidebar-link" href="#company-dishes">Тарілки на компанію</a></li>
+            <li><a class="sidebar-link" href="#chicken-dishes">Страви з курки</a></li>
+            <li><a class="sidebar-link" href="#duck-dishes">Страви з качки</a></li>
+            <li><a class="sidebar-link" href="#pick-dishes">Страви з свинини</a></li>
+            <li><a class="sidebar-link" href="#beef-dishes">Страви з телятини</a></li>
+            <li><a class="sidebar-link" href="#fish-dishes">Страви з риби</a></li>
+            <li><a class="sidebar-link" href="#pasta">Паста</a></li>
+            <li><a class="sidebar-link" href="#burgers">Бургери / лаваши</a></li>
+            <li><a class="sidebar-link" href="#garnish">Гарніри</a></li>
+            <li><a class="sidebar-link" href="#deserts">Десерти</a></li>
+            <li><a class="sidebar-link" href="#souses">Соуси</a></li>
+          </ul>
+        </div>
+      </div>
       <div class="main">
-        <svg class="gear-img">
+        <svg class="gear-img" >
           <use href="./images/symbol-defs.svg#icon-gear"></use>
         </svg>
         <h1 class="main-title">Наші страви</h1>
-        <svg class="gear-img">
+        <svg class="gear-img" gear>
           <use href="./images/symbol-defs.svg#icon-gear"></use>
         </svg>
         <section class="section">
-          <h2 class="title">Салати</h2>
+          <h2 id="salats" class="title">Салати</h2>
           <ul class="list">
             <li class="list-item">
               <h3 class="list-title">
@@ -102,11 +126,11 @@
             </li>
           </ul>
         </section>
-        <svg class="gear-img">
+        <svg  class="gear-img" gear2>
           <use href="./images/symbol-defs.svg#icon-gear"></use>
         </svg>
         <section class="section">
-          <h2 class="title">Перші страви</h2>
+          <h2 id="first-dishes" class="title">Перші страви</h2>
           <ul class="list">
             <li class="list-item">
               <h3 class="list-title">Грибний крем-суп <span class="weight">( 250 г )</span></h3>
@@ -142,11 +166,11 @@
             </li>
           </ul>
         </section>
-        <svg class="gear-img">
+        <svg class="gear-img" gear3>
           <use href="./images/symbol-defs.svg#icon-gear"></use>
         </svg>
         <section class="section">
-          <h2 class="title">Холодні закуски</h2>
+          <h2 id="cold-dishes" class="title">Холодні закуски</h2>
           <ul class="list">
             <li class="list-item">
               <h3 class="list-title">Татарський біфштекс <span class="weight">( 230 г )</span></h3>
@@ -226,7 +250,7 @@
           <use href="./images/symbol-defs.svg#icon-gear"></use>
         </svg>
         <section class="section">
-          <h2 class="title">Рекомендація від закладу</h2>
+          <h2 id="recomendations" class="title">Рекомендація від закладу</h2>
           <ul class="list">
             <li class="list-item">
               <h3 class="list-title">Банош <span class="weight">( 280 г )</span></h3>
@@ -283,7 +307,7 @@
           <use href="./images/symbol-defs.svg#icon-gear"></use>
         </svg>
         <section class="section">
-          <h2 class="title">Паштети</h2>
+          <h2 id="pastets" class="title">Паштети</h2>
           <ul class="list">
             <li class="list-item">
               <h3 class="list-title">Рибний паштет <span class="weight">( 100 г )</span></h3>
@@ -331,7 +355,7 @@
           <use href="./images/symbol-defs.svg#icon-gear"></use>
         </svg>
         <section class="section">
-          <h2 class="title">Гарячі закуски</h2>
+          <h2 id="hot-food" class="title">Гарячі закуски</h2>
           <ul class="list">
             <li class="list-item">
               <h3 class="list-title">Вареники фрі <span class="weight">( 200 г )</span></h3>
@@ -406,7 +430,7 @@
           <use href="./images/symbol-defs.svg#icon-gear"></use>
         </svg>
         <section class="section">
-          <h2 class="title">Тарілки на компанію</h2>
+          <h2 id="company-dishes" class="title">Тарілки на компанію</h2>
           <ul class="list">
             <li class="list-item">
               <h3 class="list-title">"Царська" <span class="weight">( 1.6 кг )</span></h3>
@@ -443,7 +467,7 @@
           <use href="./images/symbol-defs.svg#icon-gear"></use>
         </svg>
         <section class="section">
-          <h2 class="title">Страви з курки</h2>
+          <h2 id="chicken-dishes" class="title">Страви з курки</h2>
           <ul class="list">
             <li class="list-item">
               <h3 class="list-title">Стейк курячий  <span class="weight">( 100 г )</span></h3>
@@ -464,7 +488,7 @@
           <use href="./images/symbol-defs.svg#icon-gear"></use>
         </svg>
         <section class="section">
-          <h2 class="title">Страви з качки</h2>
+          <h2 id="duck-dishes" class="title">Страви з качки</h2>
           <ul class="list">
             <li class="list-item">
               <h3 class="list-title">
@@ -481,7 +505,7 @@
           <use href="./images/symbol-defs.svg#icon-gear"></use>
         </svg>
         <section class="section">
-          <h2 class="title">Страви з свинини</h2>
+          <h2 id="pick-dishes" class="title">Страви з свинини</h2>
           <ul class="list">
             <li class="list-item">
               <h3 class="list-title">Голяшка <span class="weight">( 1 шт = 1 кг )</span></h3>
@@ -520,7 +544,7 @@
           <use href="./images/symbol-defs.svg#icon-gear"></use>
         </svg>
         <section class="section">
-          <h2 class="title">Страви з телятини</h2>
+          <h2 id="beef-dishes" class="title">Страви з телятини</h2>
           <ul class="list">
             <li class="list-item">
               <h3 class="list-title">Стейк телячий <span class="weight">( 100 г )</span></h3>
@@ -535,7 +559,7 @@
           <use href="./images/symbol-defs.svg#icon-gear"></use>
         </svg>
         <section class="section">
-          <h2 class="title">Страви з риби</h2>
+          <h2 id="fish-dishes" class="title">Страви з риби</h2>
           <ul class="list">
             <li class="list-item">
               <h3 class="list-title">Форель з "Шипота" <span class="weight">( 100 г )</span></h3>
@@ -550,7 +574,7 @@
           <use href="./images/symbol-defs.svg#icon-gear"></use>
         </svg>
         <section class="section">
-          <h2 class="title">Паста</h2>
+          <h2 id="pasta" class="title">Паста</h2>
           <ul class="list">
             <li class="list-item">
               <h3 class="list-title">Карбонара <span class="weight">( 250 г )</span></h3>
@@ -587,7 +611,7 @@
           <use href="./images/symbol-defs.svg#icon-gear"></use>
         </svg>
         <section class="section">
-          <h2 class="title">Гамбургери / лаваши</h2>
+          <h2 id="burgers" class="title">Гамбургери / лаваши</h2>
           <ul class="list">
             <li class="list-item">
               <h3 class="list-title">Burger Рокпорт</h3>
@@ -637,7 +661,7 @@
           <use href="./images/symbol-defs.svg#icon-gear"></use>
         </svg>
         <section class="section">
-          <h2 class="title">Гарніри</h2>
+          <h2 id="garnish" class="title">Гарніри</h2>
           <ul class="list">
             <li class="list-item">
               <h3 class="list-title">Картопля фрі <span class="weight">( 200 г )</span></h3>
@@ -663,7 +687,7 @@
           <use href="./images/symbol-defs.svg#icon-gear"></use>
         </svg>
         <section class="section">
-          <h2 class="title">Десерти</h2>
+          <h2 id="deserts" class="title">Десерти</h2>
           <ul class="list">
             <li class="list-item">
               <h3 class="list-title">Сирники зі сметаною та повидлом <span class="weight">( 1 порція )</span></h3>
@@ -696,7 +720,7 @@
           <use href="./images/symbol-defs.svg#icon-gear"></use>
         </svg>
         <section class="section">
-          <h2 class="title">Соуси</h2>
+          <h2 id="souses" class="title">Соуси</h2>
           <ul class="list">
             <li class="list-item">
               <h3 class="list-title">Соус з журавлиною <span class="weight">( 30 г )</span></h3>
