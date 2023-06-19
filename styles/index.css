@@ -37,7 +37,7 @@ body {
   z-index: 7;
   position: fixed;
   width: 100%;
-  padding: 20px;
+  padding: 16px 10px;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -81,11 +81,15 @@ body {
 .nav-btn {
   color: var(--white-color);
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
 }
 
-.nav-btn:first-child {
-  margin-right: 12px;
+.nav-btn {
+  margin-right: 8px;
+}
+
+.nav-btn:last-child {
+  margin-right: 0;
 }
 
 .active {
@@ -213,8 +217,8 @@ body {
 
 .title {
   font-weight: 700;
-  padding-top: 90px;
-  margin-top: -78px;
+  padding-top: 82px;
+  margin-top: -70px;
   padding-right: 10px;
   padding-left: 10px;
   margin-bottom: 20px;
