@@ -32,6 +32,15 @@ body {
   padding-bottom: 15px;
 }
 
+.bg-theme-cocktails {
+  background-image: linear-gradient(
+    to right,
+    rgb(26 26 29 / 50%),
+    rgb(26 26 29 / 50%)
+  ),
+  url(../images/bg-cocktails2.jpeg);
+}
+
 .header-buttons {
   background-image: linear-gradient(to right, #3a1d19, rgb(39 28 21));
   z-index: 7;
@@ -108,6 +117,10 @@ body {
   margin-left: auto;
   border-radius: 6px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.main-cocktails {
+  background: linear-gradient(to right, #434343 0%, black 100%);
 }
 
 .sidebar-link {
@@ -343,6 +356,30 @@ body {
   color: var(--accent-color);
   font-weight: 700;
 }
+
+/* ///////////////////// COCTAILS /////////////////////////// */
+
+.header-cocktails {
+  background-image: linear-gradient(to right, #27201f, rgb(21, 20, 20));
+}
+
+.cocktails-mt, .cocktails-title, .cocktails-lt, .cocktails-disc {
+  color: var(--white-color);
+}
+
+.cocktails-section {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 2px dashed rgb(40, 30, 23)
+}
+
+.cocktails-price {
+  border: 1px solid var(--white-color);
+}
+
+.cocktails-w {
+  color: var(--accent-color);
+}
+
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .header-container {
