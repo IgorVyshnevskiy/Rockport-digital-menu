@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/null-styles.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <script src="./script.js" defer></script>
+    <title>Food menu</title>
+  </head>
+  <body>
+    <header class="header-buttons header-cocktails">
+      <div class="header-container">
+        <a class="logo" href="./index.html"
+          >Rockport <span class="logo-text">PUB</span>
+        </a>
+        <div class="header-nav">
+          <a class="nav-btn" href="./food.html">Кухня</a>
+          <a class="nav-btn active" href="./drinks.html" data-modal-open>Напої</a>
+        </div>
+      </div>
+    </header>
+    <main class="bg-theme bg-theme-cocktails" data-modal-close>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="sidebar-menu">
+          <ul class="sidebar-list">
+            <li><a href="./cocktails.html" class="sidebar-link">коктейльна карта</a></li>
+            <li><a href="./drinks.html" class="sidebar-link">Напої</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="main main-cocktails">
+        <h1 class="main-title cocktails-mt">Крафтові настоянки</h1>
+        <section class="section cocktails-section">
+          <h2 id="craft-infusions" class="title cocktails-title"></h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title cocktails-lt"> <span class="weight cocktails-w">(  мл )</span></h3>
+              <div class="list-block">
+                <p class="food-disc cocktails-disc"></p>
+                <span class="list-price cocktails-price"> грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="footer-bg">
+      <div class="footer-content">
+        <p class="foot-text pulse">
+          Щоб отримати картку на знижку потрібно пред'явити чек на суму більше
+          2500 грн. Знижка діє на кухню.
+        </p>
+        <div class="foot-links">
+          <a class="foot-link" href="tel:+380504324120">+38 (050) 432 41 20</a>
+          <a class="foot-link" href="https://www.facebook.com/RockportPub/"
+            >facebook</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

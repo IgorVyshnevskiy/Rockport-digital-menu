@@ -1,6 +1,6 @@
 :root {
   --primary-color: #000;
-  --secondary-color: rgb(236, 231, 214);
+  --secondary-color: #ece7d6;
   --accent-color: #c2b280;
   --dark-color: #2e2f42;
   --text-color: #434455;
@@ -192,7 +192,7 @@ body {
 
 
 .section {
-  border: 2px dashed var(--dark-color);
+  border: 2px solid var(--dark-color);
   border-radius: 10px;
   margin: 6px 10px 10px;
   background-color: rgba(194, 178, 128, 0.3);
@@ -382,7 +382,7 @@ body {
 
 .cocktails-section {
   background-color: rgba(0, 0, 0, 0.3);
-  border: 2px dashed rgb(40, 30, 23)
+  border: 2px solid rgb(0, 0, 0)
 }
 
 .cocktails-price {
@@ -391,6 +391,10 @@ body {
 
 .cocktails-w {
   color: var(--accent-color);
+}
+
+.gear-cocktails {
+  fill: var(--white-color);
 }
 
 
