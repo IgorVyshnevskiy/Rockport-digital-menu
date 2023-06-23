@@ -3,6 +3,7 @@
   --secondary-color: #ece7d6;
   --accent-color: #c2b280;
   --dark-color: #2e2f42;
+  --dark-button: rgb(16, 16, 16);
   --text-color: #434455;
   --white-color: #fff;
 
@@ -34,11 +35,34 @@ body {
 
 .bg-theme-cocktails {
   background-image: linear-gradient(
-    to right,
-    rgb(26 26 29 / 50%),
-    rgb(26 26 29 / 50%)
-  ),
-  url(../images/bg-cocktails2.jpeg);
+      to right,
+      rgb(26 26 29 / 50%),
+      rgb(26 26 29 / 50%)
+    ),
+    url(../images/bg-cocktails2.jpeg);
+}
+
+.main-btn {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+  width: 80%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.main-btn-fc {
+  background-color: rgba(194, 178, 128, 0.3);
+  color: var(--dark-color);
+  border: 2px solid var(--dark-color);
+}
+
+.main-btn:last-child {
+  margin-bottom: 0;
 }
 
 .header-buttons {
@@ -110,10 +134,17 @@ body {
   max-width: 450px;
   padding-top: 20px;
   padding-bottom: 12px;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
   border-radius: 6px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.main-index {
+  padding-top: 28px;
+  padding-bottom: 28px;
 }
 
 .main-cocktails {
@@ -128,7 +159,7 @@ body {
   background-color: rgba(194, 178, 128, 0.3);
   width: 95%;
   padding: 6px 0;
-  border: 2px dashed var(--dark-color);
+  border: 2px solid var(--dark-color);
   border-radius: 10px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -158,12 +189,10 @@ body {
   animation: spin 3s linear infinite;
 }
 
-
 .backdrop.is-hidden {
   pointer-events: none;
   opacity: 0;
 }
-
 
 .backdrop.is-hidden > .sidebar-menu {
   transform: translateX(100%);
@@ -177,9 +206,9 @@ body {
 .sidebar-menu {
   transform: translateX(0);
   overflow: scroll;
-  position: fixed; 
+  position: fixed;
   top: 0;
-  right: 0; 
+  right: 0;
   height: 100%;
 
   width: 70%;
@@ -190,6 +219,9 @@ body {
   transition: transform var(--transition-main);
 }
 
+.cocktails-menu {
+  background-color: rgb(31, 31, 31);
+}
 
 .section {
   border: 2px solid var(--dark-color);
@@ -366,23 +398,29 @@ body {
 
 /* ///////////////////// COCTAILS /////////////////////////// */
 
-.sidebar-btn-color, .cocktails-link {
-  background-color: rgb(31, 31, 31);
+.sidebar-btn-color,
+.cocktails-link,
+.main-btn-sc {
+  background-color: var(--dark-button);
   color: var(--white-color);
   border: 2px solid rgb(150, 149, 147);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .header-cocktails {
   background-image: linear-gradient(to right, #27201f, rgb(21, 20, 20));
 }
 
-.cocktails-mt, .cocktails-title, .cocktails-lt, .cocktails-disc {
+.cocktails-mt,
+.cocktails-title,
+.cocktails-lt,
+.cocktails-disc {
   color: var(--white-color);
 }
 
 .cocktails-section {
   background-color: rgba(0, 0, 0, 0.3);
-  border: 2px solid rgb(0, 0, 0)
+  border: 2px solid rgb(0, 0, 0);
 }
 
 .cocktails-price {
@@ -396,7 +434,6 @@ body {
 .gear-cocktails {
   fill: var(--white-color);
 }
-
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .header-container {

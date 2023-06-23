@@ -11,826 +11,1212 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/null-styles.css" />
-    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/index.css" />
     <script src="./script.js" defer></script>
     <title>Food menu</title>
   </head>
-<body>
-  <header class="header-buttons">
-    <div class="header-container">
-      <a class="logo" href="./index.html">Rockport <span class="logo-text">PUB</span> </a>
-      <div class="header-nav">
-        <a class="nav-btn" href="./food.html">Кухня</a>
-        <a class="nav-btn active" href="#" data-modal-open>Напої</a>
+  <body>
+    <header class="header-buttons">
+      <div class="header-container">
+        <a
+          class="logo"
+          href="./index.html"
+          target="_self"
+          rel="noopener nofollow norefferer"
+          aria-label="main-page"
+          >Rockport <span class="logo-text">PUB</span>
+        </a>
+        <div class="header-nav">
+          <a
+            class="nav-btn"
+            href="./food.html"
+            target="_self"
+            rel="noopener nofollow norefferer"
+            aria-label="kitchen"
+            >Кухня</a
+          >
+          <a
+            class="nav-btn active"
+            href="#"
+            target="_self"
+            rel="noopener nofollow norefferer"
+            aria-label="drinks"
+            data-modal-open
+            >Напої</a
+          >
+        </div>
       </div>
-    </div>
-  </header>
-  <main class="bg-theme" data-modal-close>
-    <div class="backdrop is-hidden" data-modal>
-      <div class="sidebar-menu">
-        <ul class="sidebar-list">
-          <li><a href="./cocktails.html" class="sidebar-link sidebar-btn-color pulse">Коктейльна карта</a></li>
-          <li><a href="./craft-infusions.html" class="sidebar-link sidebar-btn-color pulse">Крафтові настоянки</a></li>
-          <li><a href="#beer" class="sidebar-link">Пивна карта</a></li>
-          <li><a href="#drinks" class="sidebar-link">Напої</a></li>
-          <li><a href="#vine" class="sidebar-link">Вина на розлив</a></li>
-          <li><a href="#vine-kotnar" class="sidebar-link">Вино Котнар розлив</a></li>
-          <li><a href="#vine-kotnar-bottle" class="sidebar-link">Вино Котнар пляшка</a></li>
-          <li><a href="#vine-georgia-bottle" class="sidebar-link">Вино Грузія пляшка</a></li>
-          <li><a href="#vine-france-bottle" class="sidebar-link">Вино Франція пляшка</a></li>
-          <li><a href="#coffee" class="sidebar-link">Кава</a></li>
-          <li><a href="#infusions" class="sidebar-link">Настоянки</a></li>
-          <li><a href="#craft-infusions" class="sidebar-link">Крафтові настоянки</a></li>
-          <li><a href="#Transcarpatian-moonshine" class="sidebar-link">Закарпатська палинка</a></li>
-          <li><a href="#whiskey" class="sidebar-link">Віскі</a></li>
-          <li><a href="#gin" class="sidebar-link">Джин</a></li>
-          <li><a href="#tequilla" class="sidebar-link">Текіла</a></li>
-          <li><a href="#liker" class="sidebar-link">Лікер</a></li>
-          <li><a href="#rum" class="sidebar-link">Ром</a></li>
-          <li><a href="martini" class="sidebar-link">Мартіні</a></li>
-          <li><a href="#vodka" class="sidebar-link">Горілка</a></li>
-          <li><a href="cognaс" class="sidebar-link">Коньяк</a></li>
-          <li><a href="#champagne-bottle" class="sidebar-link">Шампанське пляшка</a></li>
-        </ul>
+    </header>
+    <main class="bg-theme" data-modal-close>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="sidebar-menu">
+          <ul class="sidebar-list">
+            <li>
+              <a
+                href="./cocktails.html"
+                target="_self"
+                rel="noopener nofollow norefferer"
+                aria-label="cocktails-page"
+                class="sidebar-link sidebar-btn-color pulse"
+                >Коктейльна карта</a
+              >
+            </li>
+            <li>
+              <a
+                href="./craft-infusions.html"
+                target="_self"
+                rel="noopener nofollow norefferer"
+                aria-label="craft-infusions-page"
+                class="sidebar-link sidebar-btn-color pulse"
+                >Крафтові настоянки</a
+              >
+            </li>
+            <li><a href="#beer" class="sidebar-link">Пивна карта</a></li>
+            <li><a href="#drinks" class="sidebar-link">Напої</a></li>
+            <li><a href="#vine" class="sidebar-link">Вина на розлив</a></li>
+            <li>
+              <a href="#vine-kotnar" class="sidebar-link">Вино Котнар розлив</a>
+            </li>
+            <li>
+              <a href="#vine-kotnar-bottle" class="sidebar-link"
+                >Вино Котнар пляшка</a
+              >
+            </li>
+            <li>
+              <a href="#vine-georgia-bottle" class="sidebar-link"
+                >Вино Грузія пляшка</a
+              >
+            </li>
+            <li>
+              <a href="#vine-france-bottle" class="sidebar-link"
+                >Вино Франція пляшка</a
+              >
+            </li>
+            <li><a href="#coffee" class="sidebar-link">Кава</a></li>
+            <li><a href="#infusions" class="sidebar-link">Настоянки</a></li>
+            <li>
+              <a href="#craft-infusions" class="sidebar-link"
+                >Крафтові настоянки</a
+              >
+            </li>
+            <li>
+              <a href="#Transcarpatian-moonshine" class="sidebar-link"
+                >Закарпатська палинка</a
+              >
+            </li>
+            <li><a href="#whiskey" class="sidebar-link">Віскі</a></li>
+            <li><a href="#gin" class="sidebar-link">Джин</a></li>
+            <li><a href="#tequilla" class="sidebar-link">Текіла</a></li>
+            <li><a href="#liker" class="sidebar-link">Лікер</a></li>
+            <li><a href="#rum" class="sidebar-link">Ром</a></li>
+            <li><a href="martini" class="sidebar-link">Мартіні</a></li>
+            <li><a href="#vodka" class="sidebar-link">Горілка</a></li>
+            <li><a href="cognaс" class="sidebar-link">Коньяк</a></li>
+            <li>
+              <a href="#champagne-bottle" class="sidebar-link"
+                >Шампанське пляшка</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="main">
-      <svg class="gear-img">
-        <use href="./images/symbol-defs.svg#icon-gear"></use>
-      </svg>
-      <h1 class="main-title">Напої</h1>
-      <svg class="gear-img">
-        <use href="./images/symbol-defs.svg#icon-gear"></use>
-      </svg>
-      <section class="section">
-        <h2 id="beer" class="title">Пивна карта</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Гостьовий кран <span class="weight">(деталі у офіціанта)</h3>
-            <div class="list-block">
-              <div class="beer-line">
-                <p class="food-disc">0.3 л</p>
-                <span class="list-price">XX грн</span>
-                <p class="food-disc beer-padding">0.5 л</p>
-                <span class="list-price">XX грн</span>
+      <div class="main">
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <h1 class="main-title">Напої</h1>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 id="beer" class="title">Пивна карта</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">
+                Гостьовий кран <span class="weight">(деталі у офіціанта)</span>
+              </h3>
+              <div class="list-block">
+                <div class="beer-line">
+                  <p class="food-disc">0.3 л</p>
+                  <span class="list-price">XX грн</span>
+                  <p class="food-disc beer-padding">0.5 л</p>
+                  <span class="list-price">XX грн</span>
+                </div>
               </div>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Paulaner <span class="weight">(пшеничне німецьке пиво)</h3>
-            <div class="list-block">
-              <div class="beer-line">
-                <p class="food-disc">0.3 л</p>
-                <span class="list-price">89 грн</span>
-                <p class="food-disc beer-padding">0.5 л</p>
-                <span class="list-price">99 грн</span>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Paulaner <span class="weight">(пшеничне німецьке пиво)</span>
+              </h3>
+              <div class="list-block">
+                <div class="beer-line">
+                  <p class="food-disc">0.3 л</p>
+                  <span class="list-price">89 грн</span>
+                  <p class="food-disc beer-padding">0.5 л</p>
+                  <span class="list-price">99 грн</span>
+                </div>
               </div>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Pilsner Urquell <span class="weight">світле чеське пиво преміум класу з приємною ноткою гірчинки. Найулюбленіше пиво Чехії</h3>
-            <div class="list-block">
-              <div class="beer-line">
-                <p class="food-disc">0.3 л</p>
-                <span class="list-price">99 грн</span>
-                <p class="food-disc beer-padding">0.5 л</p>
-                <span class="list-price">109 грн</span>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Pilsner Urquell
+                <span class="weight"
+                  >світле чеське пиво преміум класу з приємною ноткою гірчинки.
+                  Найулюбленіше пиво Чехії</span
+                >
+              </h3>
+              <div class="list-block">
+                <div class="beer-line">
+                  <p class="food-disc">0.3 л</p>
+                  <span class="list-price">99 грн</span>
+                  <p class="food-disc beer-padding">0.5 л</p>
+                  <span class="list-price">109 грн</span>
+                </div>
               </div>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Budweiser Budvar <span class="weight">світле пиво, танкового типу. Конкурент Пілснера на чеському ринку за популярністю. Завдяки спеціальній конструкції має мінімальний обсяг СО <span class="small-letter">2</span></h3>
-            <div class="list-block">
-              <div class="beer-line">
-                <p class="food-disc">0.3 л</p>
-                <span class="list-price">89 грн</span>
-                <p class="food-disc beer-padding">0.5 л</p>
-                <span class="list-price">99 грн</span>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Budweiser Budvar
+                <span class="weight"
+                  >світле пиво, танкового типу. Конкурент Пілснера на чеському
+                  ринку за популярністю. Завдяки спеціальній конструкції має
+                  мінімальний обсяг СО <span class="small-letter">2</span></span
+                >
+              </h3>
+              <div class="list-block">
+                <div class="beer-line">
+                  <p class="food-disc">0.3 л</p>
+                  <span class="list-price">89 грн</span>
+                  <p class="food-disc beer-padding">0.5 л</p>
+                  <span class="list-price">99 грн</span>
+                </div>
               </div>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Velkopopovický Kozel<span class="weight">(темний) найкраще темне чеське пиво преміум класу</h3>
-            <div class="list-block">
-              <div class="beer-line">
-                <p class="food-disc">0.3 л</p>
-                <span class="list-price">74 грн</span>
-                <p class="food-disc beer-padding">0.5 л</p>
-                <span class="list-price">84 грн</span>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Velkopopovický Kozel<span class="weight"
+                  >(темний) найкраще темне чеське пиво преміум класу</span
+                >
+              </h3>
+              <div class="list-block">
+                <div class="beer-line">
+                  <p class="food-disc">0.3 л</p>
+                  <span class="list-price">74 грн</span>
+                  <p class="food-disc beer-padding">0.5 л</p>
+                  <span class="list-price">84 грн</span>
+                </div>
               </div>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Gambrinus<span class="weight">одне з найпопулярніших пив у Чехії. Виготовляється компанією Plzensky Prazdro</h3>
-            <div class="list-block">
-              <div class="beer-line">
-                <p class="food-disc">0.3 л</p>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Gambrinus<span class="weight"
+                  >одне з найпопулярніших пив у Чехії. Виготовляється компанією
+                  Plzensky Prazdro</span
+                >
+              </h3>
+              <div class="list-block">
+                <div class="beer-line">
+                  <p class="food-disc">0.3 л</p>
+                  <span class="list-price">69 грн</span>
+                  <p class="food-disc beer-padding">0.5 л</p>
+                  <span class="list-price">79 грн</span>
+                </div>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Kibler<span class="weight">(крафтове Закарпатське пиво)</span>
+              </h3>
+              <div class="list-block">
+                <div class="beer-line">
+                  <p class="food-disc">0.3 л</p>
+                  <span class="list-price">44 грн</span>
+                  <p class="food-disc beer-padding">0.5 л</p>
+                  <span class="list-price">54 грн</span>
+                </div>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Сидр Somersby</h3>
+              <div class="list-block">
+                <div class="beer-line">
+                  <p class="food-disc">0.3 л</p>
+                  <span class="list-price">49 грн</span>
+                  <p class="food-disc beer-padding">0.5 л</p>
+                  <span class="list-price">59 грн</span>
+                </div>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Опілля Корифей<span class="weight">(світле фільтроване)</span>
+              </h3>
+              <div class="list-block">
+                <div class="beer-line">
+                  <p class="food-disc">0.3 л</p>
+                  <span class="list-price">34 грн</span>
+                  <p class="food-disc beer-padding">0.5 л</p>
+                  <span class="list-price">44 грн</span>
+                </div>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Безалкогольне пиво Paulaner<span class="weight"
+                  >(німецьке пшеничне нефільтроване, пляшкове)</span
+                >
+              </h3>
+              <div class="list-block">
+                <div class="beer-line">
+                  <p class="food-disc beer-padding">0.5 л</p>
+                  <span class="list-price">85 грн</span>
+                </div>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Paulaner Dunkel<span class="weight"
+                  >(темне пшеничне нефільтроване, з/б)</span
+                >
+              </h3>
+              <div class="list-block">
+                <div class="beer-line">
+                  <p class="food-disc beer-padding">0.5 л</p>
+                  <span class="list-price">75 грн</span>
+                </div>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Paulaner OKTOBERFEST<span class="weight">(пляшкове)</span>
+              </h3>
+              <div class="list-block">
+                <div class="beer-line">
+                  <p class="food-disc beer-padding">0.5 л</p>
+                  <span class="list-price">85 грн</span>
+                </div>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Peroni (Італія)<span class="weight">(З/Б)</span>
+              </h3>
+              <div class="list-block">
+                <div class="beer-line">
+                  <p class="food-disc">0.33 л</p>
+                  <span class="list-price">49 грн</span>
+                </div>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Paulaner Salvator (портер)<span class="weight">(пляшкове)</span>
+              </h3>
+              <div class="list-block">
+                <div class="beer-line">
+                  <p class="food-disc">0.33 л</p>
+                  <span class="list-price">86 грн</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 id="drinks" class="title">Напої</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">
+                Лимонад в асортименті <span class="weight">( 250 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">55 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Мохіто безалкогольне</h3>
+              <div class="list-block">
                 <span class="list-price">69 грн</span>
-                <p class="food-disc beer-padding">0.5 л</p>
-                <span class="list-price">79 грн</span>
               </div>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Kibler<span class="weight">(крафтове Закарпатське пиво)</h3>
-            <div class="list-block">
-              <div class="beer-line">
-                <p class="food-disc">0.3 л</p>
-                <span class="list-price">44 грн</span>
-                <p class="food-disc beer-padding">0.5 л</p>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Фреш яблучний <span class="weight">( 250 мл )</span>
+              </h3>
+              <div class="list-block">
                 <span class="list-price">54 грн</span>
               </div>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Сидр Somersby</h3>
-            <div class="list-block">
-              <div class="beer-line">
-                <p class="food-disc">0.3 л</p>
-                <span class="list-price">49 грн</span>
-                <p class="food-disc beer-padding">0.5 л</p>
-                <span class="list-price">59 грн</span>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Burn</h3>
+              <div class="list-block">
+                <span class="list-price">49 uhy</span>
               </div>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Опілля Корифей<span class="weight">(світле фільтроване)</h3>
-            <div class="list-block">
-              <div class="beer-line">
-                <p class="food-disc">0.3 л</p>
-                <span class="list-price">34 грн</span>
-                <p class="food-disc beer-padding">0.5 л</p>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Кока-кола, фанта, спрайт</h3>
+              <div class="list-block">
+                <span class="list-price">39 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Швепс <span class="weight">( 250 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">39 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Шаянська <span class="weight">( 0.5 л )</span>
+              </h3>
+              <div class="list-block">
                 <span class="list-price">44 грн</span>
               </div>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Безалкогольне пиво Paulaner<span class="weight">(німецьке пшеничне нефільтроване, пляшкове)</h3>
-            <div class="list-block">
-              <div class="beer-line">            
-                <p class="food-disc beer-padding">0.5 л</p>
-                <span class="list-price">85 грн</span>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Сік в асортименті <span class="weight">( 220 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">35 грн</span>
               </div>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Paulaner Dunkel<span class="weight">(темне пшеничне нефільтроване, з/б)</h3>
-            <div class="list-block">
-              <div class="beer-line">
-                <p class="food-disc beer-padding">0.5 л</p>
-                <span class="list-price">75 грн</span>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Березовий сік <span class="weight">( 300 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">59 грн</span>
               </div>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Paulaner OKTOBERFEST<span class="weight">(пляшкове)</h3>
-            <div class="list-block">
-              <div class="beer-line">
-                <p class="food-disc beer-padding">0.5 л</p>
-                <span class="list-price">85 грн</span>
-              </div>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Peroni (Італія)<span class="weight">(З/Б)</h3>
-            <div class="list-block">
-              <div class="beer-line">
-                <p class="food-disc">0.33 л</p>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Чай чорний, зелений, трав'яний, фруктовий
+              </h3>
+              <div class="list-block">
                 <span class="list-price">49 грн</span>
               </div>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Paulaner Salvator (портер)<span class="weight">(пляшкове)</h3>
-            <div class="list-block">
-              <div class="beer-line">
-                <p class="food-disc">0.33 л</p>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 id="vine" class="title">Вино на розлив</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">
+                Просеко <span class="weight">( 100 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">59 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Фрич <span class="weight">( 200 мл )</span>
+              </h3>
+              <div class="list-block">
+                <p class="food-disc">
+                  (традиційний закарпатський напій. вино з содовою)
+                </p>
+                <span class="list-price">49 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Глінтвейн <span class="weight">( 200 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">79 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Cola de Cometa (Іспанія) <span class="weight">( 100 мл )</span>
+              </h3>
+              <div class="list-block">
+                <p class="food-disc">(біле сухе)</p>
+                <span class="list-price">50 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Cola de Cometa (Іспанія) <span class="weight">( 100 мл )</span>
+              </h3>
+              <div class="list-block">
+                <p class="food-disc">(червоне сухе)</p>
+                <span class="list-price">50 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Don Simone (Іспанія) <span class="weight">( 100 мл )</span>
+              </h3>
+              <div class="list-block">
+                <p class="food-disc">(біле н/сухе)</p>
+                <span class="list-price">54 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Don Simone (Іспанія) <span class="weight">( 100 мл )</span>
+              </h3>
+              <div class="list-block">
+                <p class="food-disc">(червоне н/сухе)</p>
+                <span class="list-price">54 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Terra Italianica (Італія) <span class="weight">( 100 мл )</span>
+              </h3>
+              <div class="list-block">
+                <p class="food-disc">(біле н/сухе)</p>
+                <span class="list-price">54 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Terra Italianica (Італія) <span class="weight">( 100 мл )</span>
+              </h3>
+              <div class="list-block">
+                <p class="food-disc">(червоне н/сухе)</p>
+                <span class="list-price">54 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 id="vine-kotnar" class="title">Вино Котнар розлив</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">
+                Мерлот<span class="weight">( 100 мл )</span>
+              </h3>
+              <div class="list-block">
+                <p class="food-disc">(червоне н/сол)</p>
+                <span class="list-price">34 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Токай Мускат<span class="weight">( 100 мл )</span>
+              </h3>
+              <div class="list-block">
+                <p class="food-disc">(біле н/сол)</p>
+                <span class="list-price">34 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Котнар Розе<span class="weight">( 100 мл )</span>
+              </h3>
+              <div class="list-block">
+                <p class="food-disc">(рожеве н/сол)</p>
+                <span class="list-price">34 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Трамінер<span class="weight">( 100 мл )</span>
+              </h3>
+              <div class="list-block">
+                <p class="food-disc">(біле н/сухе GOROBCHIKI)</p>
+                <span class="list-price">34 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Мерлот<span class="weight">( 100 мл )</span>
+              </h3>
+              <div class="list-block">
+                <p class="food-disc">(червоне н/сухе GOROBCHIKI)</p>
+                <span class="list-price">34 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Каберне Совіньйон<span class="weight">( 100 мл )</span>
+              </h3>
+              <div class="list-block">
+                <p class="food-disc">(червоне сухе GOROBCHIKI)</p>
+                <span class="list-price">34 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Совіньйон Бланк<span class="weight">( 100 мл )</span>
+              </h3>
+              <div class="list-block">
+                <p class="food-disc">(біле сухе GOROBCHIKI)</p>
+                <span class="list-price">34 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 id="vine-kotnar-bottle" class="title">Вино Котнар пляшка</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">
+                Токай Мускат <span class="weight">( 375 мл )</span>
+              </h3>
+              <div class="list-block">
+                <p class="food-disc">(біле н/сол)</p>
+                <span class="list-price">109 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Шардоне<span class="weight">( 375 мл )</span>
+              </h3>
+              <div class="list-block">
+                <p class="food-disc">(біле сухе)</p>
+                <span class="list-price">109 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Мерло<span class="weight">( 375 мл )</span>
+              </h3>
+              <div class="list-block">
+                <p class="food-disc">(червоне сухе)</p>
+                <span class="list-price">109 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 id="vine-georgia-bottle" class="title">Вино Грузія пляшка</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">
+                Алазанська долина<span class="weight">( 750 мл )</span>
+              </h3>
+              <div class="list-block">
+                <p class="food-disc">(червоне сухе)</p>
+                <span class="list-price">400 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Цинандалі<span class="weight">( 750 мл )</span>
+              </h3>
+              <div class="list-block">
+                <p class="food-disc">(біле сухе)</p>
+                <span class="list-price">400 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Сапераві<span class="weight">( 750 мл )</span>
+              </h3>
+              <div class="list-block">
+                <p class="food-disc">(червоне сухе)</p>
+                <span class="list-price">400 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Твіші<span class="weight">( 750 мл )</span>
+              </h3>
+              <div class="list-block">
+                <p class="food-disc">(біле н/сол)</p>
+                <span class="list-price">400 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 id="vine-france-bottle" class="title">Вино Франція пляшка</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">
+                Kristi Valley Vivien Rouge<span class="weight">( 750 мл )</span>
+              </h3>
+              <div class="list-block">
+                <p class="food-disc">(червоне сухе)</p>
+                <span class="list-price">400 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Kristi Valley Charon Blanc<span class="weight">( 750 мл )</span>
+              </h3>
+              <div class="list-block">
+                <p class="food-disc">(біле сухе)</p>
+                <span class="list-price">400 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 id="coffee" class="title">Кава</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">Еспрессо</h3>
+              <div class="list-block">
+                <span class="list-price">32 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Капучіно</h3>
+              <div class="list-block">
+                <span class="list-price">42 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Лавандове Капучіно</h3>
+              <div class="list-block">
+                <span class="list-price">52 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Американо</h3>
+              <div class="list-block">
+                <span class="list-price">32 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Рістретто</h3>
+              <div class="list-block">
+                <span class="list-price">32 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Латте</h3>
+              <div class="list-block">
+                <span class="list-price">55 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Молоко до кави</h3>
+              <div class="list-block">
+                <span class="list-price">7 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Вершки</h3>
+              <div class="list-block">
+                <span class="list-price">6 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Кава без кофеїну</h3>
+              <div class="list-block">
+                <span class="list-price">+10 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Бейліс кава</h3>
+              <div class="list-block">
+                <span class="list-price">129 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 id="infusions" class="title">Настоянки</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">
+                Becherovka<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">59 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Becherovka (лимонна)<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">49 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Jagermeister<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">76 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Campari Bitter Aperitiv<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">76 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Absenta Xenta<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">120 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Unicum<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">89 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 id="craft-infusions" class="title">Крафтові настоянки</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">
+                Лімончелло<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">36 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Обліпиха<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">36 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Вишня<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">36 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Малина<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">36 грн</span>
+                <a class="cocktails-link pulse" href="./cocktails.html"
+                  >* Більше настоянок в окремомому меню *</a
+                >
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 id="Transcarpatian-moonshine" class="title">
+            Закарпатська палинка
+          </h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">
+                Грушева<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">56 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Айвова<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">64 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Черешнева<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">68 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Яблучна<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">54 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Сливова<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">54 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Горіхова<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">56 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 id="whiskey" class="title">Віскі</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">
+                Jack Daniel's<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">128 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Jack Daniel's Honey<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">124 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Jameson<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">110 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Chivas Regar (12p)<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">190 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Ballantine's<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">98 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Glenfiddich (12p)<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">208 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 id="gin" class="title">Джин</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">
+                Біфітер<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">94 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
+          <use href="./images/symbol-defs.svg#icon-gear"></use>
+        </svg>
+        <section class="section">
+          <h2 id="tequilla" class="title">Текіла</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">
+                Ольмека Бланко<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
                 <span class="list-price">86 грн</span>
               </div>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <svg class="gear-img">
-        <use href="./images/symbol-defs.svg#icon-gear"></use>
-      </svg>
-      <section class="section">
-        <h2 id="drinks" class="title">Напої</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Лимонад в асортименті <span class="weight">( 250 мл )</h3>
-            <div class="list-block">
-              <span class="list-price">55 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Мохіто безалкогольне</h3>
-            <div class="list-block">
-              <span class="list-price">69 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Фреш яблучний <span class="weight">( 250 мл )</h3>
-            <div class="list-block">
-              <span class="list-price">54 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Burn</h3>
-            <div class="list-block">
-              <span class="list-price">49 uhy</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Кока-кола, фанта, спрайт</h3>
-            <div class="list-block">
-              <span class="list-price">39 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Швепс <span class="weight">( 250 мл )</h3>
-            <div class="list-block">
-              <span class="list-price">39 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Шаянська <span class="weight">( 0.5 л )</h3>
-            <div class="list-block">
-              <span class="list-price">44 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Сік в асортименті <span class="weight">( 220 мл )</h3>
-            <div class="list-block">
-              <span class="list-price">35 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Березовий сік <span class="weight">( 300 мл )</h3>
-            <div class="list-block">
-              <span class="list-price">59 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Чай чорний, зелений, трав'яний, фруктовий</h3>
-            <div class="list-block">
-              <span class="list-price">49 грн</span>
-            </div>
-          </li>
-        </ul>
-      </section>
-       <svg class="gear-img">
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Ольмека Голд<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">88 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
           <use href="./images/symbol-defs.svg#icon-gear"></use>
         </svg>
-      <section class="section">
-        <h2 id="vine" class="title">Вино на розлив</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Просеко <span class="weight">( 100 мл )</h3>
-            <div class="list-block">
-              <span class="list-price">59 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Фрич <span class="weight">( 200 мл )</h3>
-            <div class="list-block">
-              <p class="food-disc">(традиційний закарпатський напій. вино з содовою)</p>
-              <span class="list-price">49 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Глінтвейн <span class="weight">( 200 мл )</h3>
-            <div class="list-block">
-              <span class="list-price">79 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Cola de Cometa (Іспанія) <span class="weight">( 100 мл )</h3>
-            <div class="list-block">
-              <p class="food-disc">(біле сухе)</p>
-              <span class="list-price">50 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Cola de Cometa (Іспанія) <span class="weight">( 100 мл )</h3>
-            <div class="list-block">
-              <p class="food-disc">(червоне сухе)</p>
-              <span class="list-price">50 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Don Simone (Іспанія) <span class="weight">( 100 мл )</h3>
-            <div class="list-block">
-              <p class="food-disc">(біле н/сухе)</p>
-              <span class="list-price">54 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Don Simone (Іспанія) <span class="weight">( 100 мл )</h3>
-            <div class="list-block">
-              <p class="food-disc">(червоне н/сухе)</p>
-              <span class="list-price">54 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Terra Italianica (Італія) <span class="weight">( 100 мл )</h3>
-            <div class="list-block">
-              <p class="food-disc">(біле н/сухе)</p>
-              <span class="list-price">54 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Terra Italianica (Італія) <span class="weight">( 100 мл )</h3>
-            <div class="list-block">
-              <p class="food-disc">(червоне н/сухе)</p>
-              <span class="list-price">54 грн</span>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <svg class="gear-img">
-          <use href="./images/symbol-defs.svg#icon-gear"></use>
-        </svg>
-      <section class="section">
-        <h2 id="vine-kotnar" class="title">Вино Котнар розлив</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Мерлот<span class="weight">( 100 мл )</h3>
-            <div class="list-block">
-              <p class="food-disc">(червоне н/сол)</p>
-              <span class="list-price">34 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Токай Мускат<span class="weight">( 100 мл )</h3>
-            <div class="list-block">
-              <p class="food-disc">(біле н/сол)</p>
-              <span class="list-price">34 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Котнар Розе<span class="weight">( 100 мл )</h3>
-            <div class="list-block">
-              <p class="food-disc">(рожеве н/сол)</p>
-              <span class="list-price">34 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Трамінер<span class="weight">( 100 мл )</h3>
-            <div class="list-block">
-              <p class="food-disc">(біле н/сухе GOROBCHIKI)</p>
-              <span class="list-price">34 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Мерлот<span class="weight">( 100 мл )</h3>
-            <div class="list-block">
-              <p class="food-disc">(червоне н/сухе GOROBCHIKI)</p>
-              <span class="list-price">34 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Каберне Совіньйон<span class="weight">( 100 мл )</h3>
-            <div class="list-block">
-              <p class="food-disc">(червоне сухе GOROBCHIKI)</p>
-              <span class="list-price">34 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Совіньйон Бланк<span class="weight">( 100 мл )</h3>
-            <div class="list-block">
-              <p class="food-disc">(біле сухе GOROBCHIKI)</p>
-              <span class="list-price">34 грн</span>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <svg class="gear-img">
-          <use href="./images/symbol-defs.svg#icon-gear"></use>
-        </svg>
-      <section class="section">
-        <h2 id="vine-kotnar-bottle" class="title">Вино Котнар пляшка</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Токай Мускат <span class="weight">( 375 мл )</h3>
-            <div class="list-block">
-              <p class="food-disc">(біле н/сол)</p>
-              <span class="list-price">109 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Шардоне<span class="weight">( 375 мл )</h3>
-            <div class="list-block">
-              <p class="food-disc">(біле сухе)</p>
-              <span class="list-price">109 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Мерло<span class="weight">( 375 мл )</h3>
-            <div class="list-block">
-              <p class="food-disc">(червоне сухе)</p>
-              <span class="list-price">109 грн</span>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <svg class="gear-img">
-          <use href="./images/symbol-defs.svg#icon-gear"></use>
-        </svg>
-      <section class="section">
-        <h2 id="vine-georgia-bottle" class="title">Вино Грузія пляшка</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Алазанська долина<span class="weight">( 750 мл )</h3>
-            <div class="list-block">
-              <p class="food-disc">(червоне сухе)</p>
-              <span class="list-price">400 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Цинандалі<span class="weight">( 750 мл )</h3>
-            <div class="list-block">
-              <p class="food-disc">(біле сухе)</p>
-              <span class="list-price">400 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Сапераві<span class="weight">( 750 мл )</h3>
-            <div class="list-block">
-              <p class="food-disc">(червоне сухе)</p>
-              <span class="list-price">400 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Твіші<span class="weight">( 750 мл )</h3>
-            <div class="list-block">
-              <p class="food-disc">(біле н/сол)</p>
-              <span class="list-price">400 грн</span>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <svg class="gear-img">
-          <use href="./images/symbol-defs.svg#icon-gear"></use>
-        </svg>
-      <section class="section">
-        <h2 id="vine-france-bottle" class="title">Вино Франція пляшка</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Kristi Valley Vivien Rouge<span class="weight">( 750 мл )</h3>
-            <div class="list-block">
-              <p class="food-disc">(червоне сухе)</p>
-              <span class="list-price">400 грн</span>
-            </div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Kristi Valley Charon Blanc<span class="weight">( 750 мл )</h3>
-            <div class="list-block">
-              <p class="food-disc">(біле сухе)</p>
-              <span class="list-price">400 грн</span>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <svg class="gear-img">
-          <use href="./images/symbol-defs.svg#icon-gear"></use>
-        </svg>
-      <section class="section">
-        <h2 id="coffee" class="title">Кава</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Еспрессо</h3>
-            <div class="list-block"><span class="list-price">32 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Капучіно</h3>
-            <div class="list-block"><span class="list-price">42 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Лавандове Капучіно</h3>
-            <div class="list-block"><span class="list-price">52 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Американо</h3>
-            <div class="list-block"><span class="list-price">32 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Рістретто</h3>
-            <div class="list-block"><span class="list-price">32 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Латте</h3>
-            <div class="list-block"><span class="list-price">55 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Молоко до кави</h3>
-            <div class="list-block"><span class="list-price">7 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Вершки</h3>
-            <div class="list-block"><span class="list-price">6 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Кава без кофеїну</h3>
-            <div class="list-block"><span class="list-price">+10 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Бейліс кава</h3>
-            <div class="list-block"><span class="list-price">129 грн</span></div>
-          </li>
-        </ul>
-      </section>
-      <svg class="gear-img">
-          <use href="./images/symbol-defs.svg#icon-gear"></use>
-        </svg>
-      <section class="section">
-        <h2 id="infusions" class="title">Настоянки</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Becherovka<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">59 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Becherovka (лимонна)<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">49 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Jagermeister<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">76 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Campari Bitter Aperitiv<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">76 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Absenta Xenta<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">120 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Unicum<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">89 грн</span></div>
-          </li>
-        </ul>
-      </section>
-      <svg class="gear-img">
-          <use href="./images/symbol-defs.svg#icon-gear"></use>
-        </svg>
-      <section class="section">
-        <h2 id="craft-infusions" class="title">Крафтові настоянки</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Лімончелло<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">36 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Обліпиха<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">36 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Вишня<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">36 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Малина<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">36 грн</span>
-            <a class="cocktails-link pulse" href="./cocktails.html">* Більше настоянок в окремомому меню *</a>
-          </li>
-        </ul>
-      </section>
-      <svg class="gear-img">
-          <use href="./images/symbol-defs.svg#icon-gear"></use>
-        </svg>
-      <section class="section">
-        <h2 id="Transcarpatian-moonshine" class="title">Закарпатська палинка</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Грушева<span class="weight">( 50 мл )</h3></h3>
-            <div class="list-block"><span class="list-price">56 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Айвова<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">64 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Черешнева<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">68 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Яблучна<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">54 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Сливова<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">54 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Горіхова<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">56 грн</span></div>
-          </li>
-        </ul>
-      </section>
-      <svg class="gear-img">
-          <use href="./images/symbol-defs.svg#icon-gear"></use>
-        </svg>
-      <section class="section">
-        <h2 id="whiskey" class="title">Віскі</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Jack Daniel's<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">128 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Jack Daniel's Honey<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">124 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Jameson<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">110 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Chivas Regar (12p)<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">190 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Ballantine's<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">98 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Glenfiddich (12p)<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">208 грн</span></div>
-          </li>
-        </ul>
-      </section>
-      <svg class="gear-img">
-          <use href="./images/symbol-defs.svg#icon-gear"></use>
-        </svg>
-      <section class="section">
-        <h2 id="gin" class="title">Джин</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Біфітер<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">94 грн</span></div>
-          </li>
-        </ul>
-      </section>
-      <svg class="gear-img">
-          <use href="./images/symbol-defs.svg#icon-gear"></use>
-        </svg>
-      <section class="section">
-        <h2 id="tequilla" class="title">Текіла</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Ольмека Бланко<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">86 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Ольмека Голд<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">88 грн</span></div>
-          </li>
-        </ul>
-      </section>
-      <svg class="gear-img">
-          <use href="./images/symbol-defs.svg#icon-gear"></use>
-        </svg>
-      <section class="section">
-        <h2 id="liker" class="title">Лікери</h2>
-        <ul class="list">
-          <li class="list-item">
-            <h3 class="list-title">Бейліс<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">90 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Калуа<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">96 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Куантро<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">90 грн</span></div>
-          </li>
-          <li class="list-item">
-            <h3 class="list-title">Самбука<span class="weight">( 50 мл )</h3>
-            <div class="list-block"><span class="list-price">60 грн</span></div>
-          </li>
-        </ul>
-      </section>
-      <svg class="gear-img">
+        <section class="section">
+          <h2 id="liker" class="title">Лікери</h2>
+          <ul class="list">
+            <li class="list-item">
+              <h3 class="list-title">
+                Бейліс<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">90 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Калуа<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">96 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Куантро<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">90 грн</span>
+              </div>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">
+                Самбука<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">60 грн</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <svg class="gear-img">
           <use href="./images/symbol-defs.svg#icon-gear"></use>
         </svg>
         <section class="section">
           <h2 id="rum" class="title">Ром</h2>
           <ul class="list">
             <li class="list-item">
-              <h3 class="list-title">Сaptain Morgan white<span class="weight">( 50 мл )</h3>
-              <div class="list-block"><span class="list-price">64 грн</span></div>
+              <h3 class="list-title">
+                Сaptain Morgan white<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">64 грн</span>
+              </div>
             </li>
             <li class="list-item">
-              <h3 class="list-title">Captain Morgan Spiced Black<span class="weight">( 50 мл )</h3>
-              <div class="list-block"><span class="list-price">68 грн</span></div>
+              <h3 class="list-title">
+                Captain Morgan Spiced Black<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">68 грн</span>
+              </div>
             </li>
             <li class="list-item">
-              <h3 class="list-title">Captain Morgan Spiced Gold<span class="weight">( 50 мл )</h3>
-              <div class="list-block"><span class="list-price">62 грн</span></div>
+              <h3 class="list-title">
+                Captain Morgan Spiced Gold<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">62 грн</span>
+              </div>
             </li>
           </ul>
         </section>
-      <svg class="gear-img">
+        <svg class="gear-img">
           <use href="./images/symbol-defs.svg#icon-gear"></use>
         </svg>
         <section class="section">
           <h2 id="martini" class="title">Мартіні</h2>
           <ul class="list">
             <li class="list-item">
-              <h3 class="list-title">Мартіні Бьянко<span class="weight">( 50 мл )</h3>
-              <div class="list-block"><span class="list-price">44 грн</span></div>
+              <h3 class="list-title">
+                Мартіні Бьянко<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">44 грн</span>
+              </div>
             </li>
             <li class="list-item">
-              <h3 class="list-title">Мартіні Россо<span class="weight">( 50 мл )</h3>
-              <div class="list-block"><span class="list-price">44 грн</span></div>
+              <h3 class="list-title">
+                Мартіні Россо<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">44 грн</span>
+              </div>
             </li>
           </ul>
         </section>
-      <svg class="gear-img">
+        <svg class="gear-img">
           <use href="./images/symbol-defs.svg#icon-gear"></use>
         </svg>
         <section class="section">
           <h2 id="vodka" class="title">Горілка</h2>
           <ul class="list">
             <li class="list-item">
-              <h3 class="list-title">Koskenkorva (Фінляндія)<span class="weight">( 50 мл )</h3>
-              <div class="list-block"><span class="list-price">60 грн</span></div>
+              <h3 class="list-title">
+                Koskenkorva (Фінляндія)<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">60 грн</span>
+              </div>
             </li>
             <li class="list-item">
-              <h3 class="list-title">Фінляндія<span class="weight">( 50 мл )</h3>
-              <div class="list-block"><span class="list-price">50 грн</span></div>
+              <h3 class="list-title">
+                Фінляндія<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">50 грн</span>
+              </div>
             </li>
             <li class="list-item">
-              <h3 class="list-title">Львів преміум<span class="weight">( 50 мл )</h3>
-              <div class="list-block"><span class="list-price">34 грн</span></div>
+              <h3 class="list-title">
+                Львів преміум<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">34 грн</span>
+              </div>
             </li>
             <li class="list-item">
-              <h3 class="list-title">Немирів особлива<span class="weight">( 50 мл )</h3>
-              <div class="list-block"><span class="list-price">26 грн</span></div>
+              <h3 class="list-title">
+                Немирів особлива<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">26 грн</span>
+              </div>
             </li>
             <li class="list-item">
-              <h3 class="list-title">Немирів преміум делюкс<span class="weight">( 50 мл )</h3>
-              <div class="list-block"><span class="list-price">32 грн</span></div>
+              <h3 class="list-title">
+                Немирів преміум делюкс<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">32 грн</span>
+              </div>
             </li>
             <li class="list-item">
-              <h3 class="list-title">Немирів лекс<span class="weight">( 50 мл )</h3>
-              <div class="list-block"><span class="list-price">46 грн</span></div>
+              <h3 class="list-title">
+                Немирів лекс<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">46 грн</span>
+              </div>
             </li>
             <li class="list-item">
-              <h3 class="list-title">Козацька рада<span class="weight">( 50 мл )</h3>
-              <div class="list-block"><span class="list-price">26 грн</span></div>
+              <h3 class="list-title">
+                Козацька рада<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">26 грн</span>
+              </div>
             </li>
           </ul>
         </section>
-      <svg class="gear-img">
+        <svg class="gear-img">
           <use href="./images/symbol-defs.svg#icon-gear"></use>
         </svg>
         <section class="section">
           <h2 id="cognac" class="title">Коньяк</h2>
           <ul class="list">
             <li class="list-item">
-              <h3 class="list-title">закарпатський<span class="weight">( 50 мл )</h3>
-              <div class="list-block"><span class="list-price">52 грн</span></div>
+              <h3 class="list-title">
+                закарпатський<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">52 грн</span>
+              </div>
             </li>
             <li class="list-item">
-              <h3 class="list-title">Карпати<span class="weight">( 50 мл )</h3>
-              <div class="list-block"><span class="list-price">136 грн</span></div>
+              <h3 class="list-title">
+                Карпати<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">136 грн</span>
+              </div>
             </li>
             <li class="list-item">
-              <h3 class="list-title">Ужгород<span class="weight">( 50 мл )</h3>
-              <div class="list-block"><span class="list-price">150 грн</span></div>
+              <h3 class="list-title">
+                Ужгород<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">150 грн</span>
+              </div>
             </li>
             <li class="list-item">
-              <h3 class="list-title">Тиса<span class="weight">( 50 мл )</h3>
-              <div class="list-block"><span class="list-price">120 грн</span></div>
+              <h3 class="list-title">
+                Тиса<span class="weight">( 50 мл )</span>
+              </h3>
+              <div class="list-block">
+                <span class="list-price">120 грн</span>
+              </div>
             </li>
           </ul>
         </section>
-      <svg class="gear-img">
+        <svg class="gear-img">
           <use href="./images/symbol-defs.svg#icon-gear"></use>
         </svg>
         <section class="section">
           <h2 id="champagne-bottle" class="title">Шампанське пляшка</h2>
           <ul class="list">
             <li class="list-item">
-              <h3 class="list-title">Артемівське <span class="weight">( 750 мл )</h3>
+              <h3 class="list-title">
+                Артемівське <span class="weight">( 750 мл )</span>
+              </h3>
               <div class="list-block">
                 <p class="food-disc">(біле н/сол)</p>
                 <span class="list-price">350 грн</span>
               </div>
             </li>
             <li class="list-item">
-              <h3 class="list-title">Артемівське <span class="weight">( 750 мл )</h3>
+              <h3 class="list-title">
+                Артемівське <span class="weight">( 750 мл )</span>
+              </h3>
               <div class="list-block">
                 <p class="food-disc">(біле сухе)</p>
                 <span class="list-price">350 грн</span>
               </div>
             </li>
             <li class="list-item">
-              <h3 class="list-title">Артемівське <span class="weight">( 750 мл )</h3>
+              <h3 class="list-title">
+                Артемівське <span class="weight">( 750 мл )</span>
+              </h3>
               <div class="list-block">
                 <p class="food-disc">(біле брют)</p>
                 <span class="list-price">350 грн</span>
@@ -838,16 +1224,32 @@
             </li>
           </ul>
         </section>
-    </div>  
-  </main>
-  <footer class="footer-bg">
-    <div class="footer-content">
-      <p class="foot-text pulse">Щоб отримати картку на знижку потрібно пред'явити чек на суму більше 2500 грн. Знижка діє на кухню.</p>
-      <div class="foot-links">
-        <a class="foot-link" href="tel:+380504324120">+38 (050) 432 41 20</a>
-        <a class="foot-link" href="https://www.facebook.com/RockportPub/">facebook</a>
       </div>
-    </div>
-  </footer>
-</body>
+    </main>
+    <footer class="footer-bg">
+      <div class="footer-content">
+        <p class="foot-text pulse">
+          Щоб отримати картку на знижку потрібно пред'явити чек на суму більше
+          2500 грн. Знижка діє на кухню.
+        </p>
+        <div class="foot-links">
+          <a
+            class="foot-link"
+            href="tel:+380504324120"
+            rel="noopener nofollow norefferer"
+            aria-label="call"
+            >+38 (050) 432 41 20</a
+          >
+          <a
+            class="foot-link"
+            target="_blank"
+            rel="noopener nofollow norefferer"
+            aria-label="facebook-page"
+            href="https://www.facebook.com/RockportPub/"
+            >facebook</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
