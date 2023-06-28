@@ -29,8 +29,8 @@ body {
       rgb(26 26 29 / 50%)
     ),
     url(../images/background.jpeg);
-  padding-top: 22%;
-  padding-bottom: 15px;
+  padding-top: 6rem;
+  padding-bottom: 2.5rem;
 }
 
 .bg-theme-cocktails {
@@ -44,15 +44,18 @@ body {
 
 .main-btn {
   display: block;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   border-radius: 8px;
-  padding: 10px 20px;
+  padding: 12px 20px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 16px;
-  width: 80%;
+  margin-bottom: 20px;
+  width: 90%;
+  max-width: 300px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color var(--transition-main),
+    color var(--transition-main);
 }
 
 .main-btn-fc {
@@ -63,6 +66,11 @@ body {
 
 .main-btn:last-child {
   margin-bottom: 0;
+}
+
+.main-btn-fc:hover,
+.main-btn-fc:focus {
+  background-color: rgba(238, 206, 107, 0.3);
 }
 
 .header-buttons {
@@ -143,8 +151,8 @@ body {
 }
 
 .main-index {
-  padding-top: 28px;
-  padding-bottom: 28px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .main-cocktails {
@@ -162,6 +170,12 @@ body {
   border: 2px solid var(--dark-color);
   border-radius: 10px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color var(--transition-main);
+}
+
+.sidebar-link:hover,
+.sidebar-link:focus {
+  background-color: rgba(238, 206, 107, 0.3);
 }
 
 .backdrop {
@@ -405,6 +419,17 @@ body {
   color: var(--white-color);
   border: 2px solid rgb(150, 149, 147);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color var(--transition-main), color var(--transition-main);
+}
+
+.main-btn-sc:hover,
+.main-btn-sc:focus,
+.sidebar-btn-color:hover,
+.sidebar-btn-color:focus,
+.cocktails-link:hover,
+.cocktails-link:focus {
+  background-color: var(--secondary-color);
+  color: var(--dark-color);
 }
 
 .header-cocktails {
@@ -441,7 +466,7 @@ body {
   }
 
   .header-buttons {
-    padding: 20px 16%;
+   padding: 2rem 15% 0;
   }
 
   .logo {
@@ -459,18 +484,29 @@ body {
   }
 
   .active {
-    padding-bottom: 24px;
+    padding-bottom: 2.5rem;
     border-bottom: 3px solid var(--accent-color);
   }
 
   .bg-theme {
-    padding-top: 104px;
-    padding-bottom: 30px;
+    padding-top: 10rem;
+    padding-bottom: 4rem;
   }
 
   .main {
     width: 70%;
     max-width: 800px;
+  }
+
+  .main-index {
+    max-width: 600px;
+  }
+
+  .main-btn {
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 400px;
   }
 
   .main-title {
@@ -485,10 +521,21 @@ body {
   .title {
     font-size: 32px;
     margin-bottom: 24px;
+    margin-top: -7.9rem;
+    padding-top: 8.7rem;
+    
   }
 
   .list-title {
     font-size: 20px;
+  }
+
+  .sidebar-menu {
+    padding-top: 10rem;
+  }
+
+  .sidebar-link {
+    margin-bottom: 1rem;
   }
 
   .food-disc {
