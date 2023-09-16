@@ -3,12 +3,8 @@
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.5);
 }
 
-.logo-text, .active{
+.logo-text{
   color: rgb(31, 31, 31);
-}
-
-.active {
-  border-bottom: 3px solid #313131;
 }
 
 .bg-theme {
