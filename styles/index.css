@@ -461,6 +461,17 @@ body {
   fill: var(--white-color);
 }
 
+.octoberfest-btn {
+  background-image: linear-gradient(to right top, #cfd6e0, #a8c7e6, #c3e4fc, #8ad8ee, #12bbeb);
+  transition: filter var(--transition-main)
+}
+
+.octoberfest-btn:hover,
+.octoberfest-btn:active {
+  filter: brightness(110%);
+  transition: filter var(--transition-main)
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .header-container {
     max-width: 800px;
