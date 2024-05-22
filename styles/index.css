@@ -472,6 +472,10 @@ body {
   transition: filter var(--transition-main)
 }
 
+.utils-mr-btm {
+  margin-bottom: 8px;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .header-container {
     max-width: 800px;
@@ -541,6 +545,7 @@ body {
   .list-title {
     font-size: 20px;
   }
+
 
   .sidebar-menu {
     padding-top: 10rem;
