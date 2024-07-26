@@ -476,6 +476,16 @@ body {
   margin-bottom: 8px;
 }
 
+.fish-notation {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.fish-notation > h3 {
+  font-size: 1.5rem;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .header-container {
     max-width: 800px;
